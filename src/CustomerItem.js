@@ -8,7 +8,7 @@ export default function CustomerItem({ customers }) {
       <h5>you can reach them at {customers.phone}</h5>
       <div>Known associates:
         <ul>
-          {customers.friends.map(friend => <li key={friend}>{friend.name}</li>)}
+          {customers.friends.map((friend, index) => <li key={friend + index}>{friend.name}</li>)}
         </ul>
       </div>  
     </div> 

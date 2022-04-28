@@ -5,9 +5,9 @@ export default function BandList({ bands }) {
   return (
     <div className='band-list'>
       {
-        bands.map((band) => 
+        bands.map((band, index) => 
           <BandItem 
-            key={band.name} 
+            key={band.name + index} 
             bands={band}/>)
       }
     </div>
