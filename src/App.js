@@ -6,6 +6,7 @@ import { customers } from './customers.js';
 function App() {
   return (
     <div className="App">
+      Current Customers:
       <CustomerList customers={customers}/>
     </div>
   );
