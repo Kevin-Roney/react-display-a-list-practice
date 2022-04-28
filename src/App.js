@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import CustomerList from './CustomerList';
 import './App.css';
 // import your arrays here
+import { customers } from './customers.js';
 
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      <CustomerList customers={customers}/>
     </div>
   );
 }
