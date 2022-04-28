@@ -12,10 +12,18 @@ import { birthdays } from './birthdays.js';
 function App() {
   return (
     <div className="App">
-      <CustomerList customers={customers}/>
-      <BandList bands={bands}/>
-      <FriendList friends={friends}/>
-      <BirthdayList birthdays={birthdays}/>
+      <div>Customers:
+        <CustomerList customers={customers}/>
+      </div>
+      <div>Bands:
+        <BandList bands={bands}/>
+      </div>
+      <div>Friends:
+        <FriendList friends={friends}/>
+      </div>
+      <div>Birthdays:
+        <BirthdayList birthdays={birthdays}/>
+      </div>
     </div>
   );
 }
