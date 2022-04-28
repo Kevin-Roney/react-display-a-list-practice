@@ -8,9 +8,9 @@ export default function BandList({ bands }) {
         bands.map((band, index) => 
           <BandItem 
             key={band.name + index} 
-            bands={band}/>)
+            bands={band}
+          />)
       }
     </div>
   );
 }
-

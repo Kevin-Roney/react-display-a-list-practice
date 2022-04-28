@@ -1,11 +1,13 @@
 import CustomerList from './CustomerList';
 import BandList from './BandList';
 import FriendList from './FriendList';
+import BirthdayList from './BirthdayList';
 import './App.css';
 // import your arrays here
 import { customers } from './customers.js';
 import { bands } from './bands.js';
-import { friends } from './friends';
+import { friends } from './friends.js';
+import { birthdays } from './birthdays.js';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <CustomerList customers={customers}/>
       <BandList bands={bands}/>
       <FriendList friends={friends}/>
+      <BirthdayList birthdays={birthdays}/>
     </div>
   );
 }
