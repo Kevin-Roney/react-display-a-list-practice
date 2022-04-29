@@ -16,8 +16,10 @@ export const customers = [
     'address': '884 Bogart Street, Herald, Virgin Islands, 791',
     'about': 'Ex dolore veniam quis sint. Cillum ea id aliqua fugiat nulla officia dolor cillum amet culpa incididunt anim officia. Veniam nisi commodo dolore anim pariatur ad fugiat exercitation nisi eu.\r\n',
     'registered': '2014-08-15T04:02:30 +07:00',
-    'latitude': -22.19942,
-    'longitude': 76.79172,
+    'long_lat': {
+      'latitude': -22.19942,
+      'longitude': 76.79172 
+    },
     'tags': [
       'Lorem',
       'proident',
@@ -61,8 +63,10 @@ export const customers = [
     'address': '213 Exeter Street, Nutrioso, District Of Columbia, 9282',
     'about': 'Tempor id excepteur excepteur voluptate cillum tempor cillum. Quis do est proident cupidatat laborum enim veniam ad nulla labore dolore excepteur qui laborum. Irure magna culpa enim anim culpa incididunt. Enim laborum officia quis culpa proident cupidatat cupidatat laboris aliquip.\r\n',
     'registered': '2021-01-18T03:21:43 +08:00',
-    'latitude': 68.060436,
-    'longitude': -89.988694,
+    'long_lat': { 
+      'latitude': 68.060436,
+      'longitude': -89.98869 
+    },
     'tags': [
       'dolor',
       'ex',
@@ -106,8 +110,10 @@ export const customers = [
     'address': '380 Quentin Street, Sardis, Indiana, 4218',
     'about': 'Sit tempor eiusmod excepteur reprehenderit id anim id esse nostrud minim reprehenderit veniam. Proident quis Lorem tempor culpa esse ipsum elit excepteur et mollit irure enim nisi. Dolor irure velit incididunt enim.\r\n',
     'registered': '2016-10-24T08:54:35 +07:00',
-    'latitude': 30.624468,
-    'longitude': -13.119842,
+    'long_lat': { 
+      'latitude': 30.624468,
+      'longitude': -13.119842 
+    },
     'tags': [
       'aute',
       'deserunt',
@@ -151,8 +157,10 @@ export const customers = [
     'address': '695 Branton Street, Fairmount, Pennsylvania, 6848',
     'about': 'Enim irure deserunt et qui consectetur sunt excepteur quis adipisicing. Mollit exercitation est duis sit dolor deserunt amet dolore esse cillum. Velit sint officia cillum eiusmod et laboris ea excepteur dolor deserunt dolor Lorem. Amet qui irure exercitation dolore ut aute laborum non nisi fugiat cillum pariatur fugiat nostrud. Adipisicing in dolore esse exercitation tempor. Reprehenderit nostrud elit minim irure est duis aute. Excepteur voluptate ut voluptate ex pariatur anim officia occaecat ea.\r\n',
     'registered': '2019-06-30T03:13:59 +07:00',
-    'latitude': 5.278902,
-    'longitude': 106.716687,
+    'long_lat': { 
+      'latitude': 5.278902,
+      'longitude': 106.716687 
+    },
     'tags': [
       'officia',
       'ipsum',
@@ -196,8 +204,10 @@ export const customers = [
     'address': '167 Arlington Place, Blandburg, Minnesota, 1783',
     'about': 'Mollit laborum sit quis excepteur ad et ad elit veniam incididunt labore. Dolor ullamco nisi cupidatat veniam velit. Amet reprehenderit do sit est dolore velit sunt non laborum. Est incididunt dolore consectetur ut consequat esse in. Ullamco excepteur incididunt labore et id anim amet ex Lorem nulla sit cupidatat id ea. Sunt voluptate eiusmod adipisicing Lorem magna ut aliquip non laborum.\r\n',
     'registered': '2020-10-04T04:19:34 +07:00',
-    'latitude': -5.418145,
-    'longitude': -82.804516,
+    'long_lat': { 
+      'latitude': -5.418145,
+      'longitude': -82.804516 
+    },
     'tags': [
       'culpa',
       'proident',
@@ -241,8 +251,10 @@ export const customers = [
     'address': '257 Ditmas Avenue, Hiko, Hawaii, 5023',
     'about': 'Sint exercitation voluptate pariatur laborum sint do quis labore aliqua consequat. Esse in duis exercitation enim. Irure deserunt velit ullamco sit eu nostrud do eiusmod exercitation anim adipisicing enim.\r\n',
     'registered': '2019-05-17T03:34:21 +07:00',
-    'latitude': -48.624486,
-    'longitude': 67.1254,
+    'long_lat': { 
+      'latitude': -48.624486,
+      'longitude': 67.1254 
+    },
     'tags': [
       'nostrud',
       'duis',
@@ -286,8 +298,10 @@ export const customers = [
     'address': '786 Eagle Street, Wollochet, Oregon, 7987',
     'about': 'Sit ipsum officia nulla voluptate laboris id sit. Amet fugiat ex laboris nisi duis irure sint non id Lorem tempor ut exercitation do. Aute non tempor ipsum sunt officia cillum eu irure laboris reprehenderit dolore dolor. Magna esse voluptate consectetur dolore nostrud.\r\n',
     'registered': '2015-05-26T08:28:34 +07:00',
-    'latitude': 18.71358,
-    'longitude': -136.057578,
+    'long_lat': { 
+      'latitude': 18.71358,
+      'longitude': -136.057578 
+    },
     'tags': [
       'aliqua',
       'nostrud',
