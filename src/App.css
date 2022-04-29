@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.customer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customer-item {
+  margin: 10px;
+  border: solid 1px black;
+  padding: 10px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.band-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.band-item {
+  margin: 10px;
+  border: solid 1px black;
+  padding: 10px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.friend-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friend-item {
+  margin: 10px;
+  border: solid 1px black;
+  padding: 10px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.birthday-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.birthday-item {
+  margin: 10px;
+  border: solid 1px black;
+  padding: 10px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
